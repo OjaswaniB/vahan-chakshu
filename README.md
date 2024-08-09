@@ -6,7 +6,6 @@ This Real-Time IoT-Based Drowsiness Detection System leverages the machine learn
 ## Objective
 The system utilizes an ensemble model combining VGG16, VGG19, and DenseNet to achieve high accuracy in identifying driver fatigue through facial expressions, head tilting, blinking, and yawning. Additionally, the system includes sensors for alcohol detection and post-crash analysis.
 
-![image](https://github.com/user-attachments/assets/5b03fb83-41ff-4ffe-b267-e34b42701fab)
 
 ## Data Preparation
 Due to lack of existing dataset, we created a dataset of **14,500** images. The methodologies followed were-

@@ -3,6 +3,7 @@
 This repository contains the code and documentation for a Real-Time IoT-Based Drowsiness Detection System, developed to enhance driver safety by detecting signs of drowsiness and alcohol consumption. The system utilizes an ensemble model combining VGG16, VGG19, and DenseNet to achieve high accuracy in identifying driver fatigue through facial expressions, head tilting, blinking, and yawning. Additionally, the system includes sensors for alcohol detection and post-crash analysis.
 ![image](https://github.com/user-attachments/assets/5b03fb83-41ff-4ffe-b267-e34b42701fab)
 
+![image](https://github.com/user-attachments/assets/03e974dc-752f-4af8-a6c7-02d48aee3654)
 
 ## Classes
 - **Neutral**: The driver is in a normal, alert state. Eye blink rates and head nods are within

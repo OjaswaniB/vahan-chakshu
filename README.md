@@ -1,9 +1,11 @@
 # Real-Time IoT-Based Drowsiness Detection System - VAHAN CHAKSHU
 This Real-Time IoT-Based Drowsiness Detection System leverages the machine learning life cycle to ensure accurate and effective detection of drowsiness. The machine learning life cycle includes several key stages, each of which is crucial for developing a robust system. Below is an overview of how each stage is applied in our system:
+
 ![image](https://github.com/user-attachments/assets/03e974dc-752f-4af8-a6c7-02d48aee3654)
 
 ## Objective
 The system utilizes an ensemble model combining VGG16, VGG19, and DenseNet to achieve high accuracy in identifying driver fatigue through facial expressions, head tilting, blinking, and yawning. Additionally, the system includes sensors for alcohol detection and post-crash analysis.
+
 ![image](https://github.com/user-attachments/assets/5b03fb83-41ff-4ffe-b267-e34b42701fab)
 
 ## Data Preparation
@@ -70,6 +72,7 @@ Trained machine learning models using labeled datasets that included various lev
   
 ## Monitoring
 The system achieved an accuracy rate of 85%, 82% and 90% in VGG16, VGG19 & DenseNet respectively in detecting drowsiness, based on test data from controlled environments.
+
 ![image](https://github.com/user-attachments/assets/b90e09e6-d8b6-406b-9e28-e0fc910e9feb)
 
 

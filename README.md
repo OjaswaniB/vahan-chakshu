@@ -1,9 +1,17 @@
 # Real-Time IoT-Based Drowsiness Detection System
+![image](https://github.com/user-attachments/assets/03e974dc-752f-4af8-a6c7-02d48aee3654)
 
-This repository contains the code and documentation for a Real-Time IoT-Based Drowsiness Detection System, developed to enhance driver safety by detecting signs of drowsiness and alcohol consumption. The system utilizes an ensemble model combining VGG16, VGG19, and DenseNet to achieve high accuracy in identifying driver fatigue through facial expressions, head tilting, blinking, and yawning. Additionally, the system includes sensors for alcohol detection and post-crash analysis.
+## Objective
+The system utilizes an ensemble model combining VGG16, VGG19, and DenseNet to achieve high accuracy in identifying driver fatigue through facial expressions, head tilting, blinking, and yawning. Additionally, the system includes sensors for alcohol detection and post-crash analysis.
 ![image](https://github.com/user-attachments/assets/5b03fb83-41ff-4ffe-b267-e34b42701fab)
 
-![image](https://github.com/user-attachments/assets/03e974dc-752f-4af8-a6c7-02d48aee3654)
+## Data Preparation
+Due to lack of existing dataset, we created a dataset of **14,500** images. The methodologies followed were-
+- **Video Recording**: Cameras were set up to record drivers' facial expressions, specifically
+focusing on eye movements and head positions. This allowed for detailed analysis of
+blinking patterns and head nodding.
+- **Manual Observation**: We manually observed and recorded instances of different
+states during driving simulations or real-world scenarios. 
 
 ## Classes
 - **Neutral**: The driver is in a normal, alert state. Eye blink rates and head nods are within
@@ -34,6 +42,9 @@ not fully closed either, indicating varying levels of alertness.
 
 ![image](https://github.com/user-attachments/assets/de1b35da-d694-450f-9220-ee01df84a662)
 
+## Model Building
+Trained machine learning models using labeled datasets that included various levels of driver drowsiness. Models included VGG16, VGG19 and DenseNet that were amalgamated using voting method in ensembling. 
+
 
 ## Features
 
@@ -42,7 +53,7 @@ not fully closed either, indicating varying levels of alertness.
 - **Alcohol Detection**: Integrated MQ3 sensor to detect alcohol levels in the driver’s breath.
 - **Post-Crash Analysis**: Equipped with a gyroscope and accelerometer to analyze data following a collision.
 
-## Components
+## Deployment Components
 
 1. **Ensemble Model**:
    - **VGG16**: A deep convolutional network model known for its simplicity and effectiveness in image classification tasks.
@@ -55,3 +66,12 @@ not fully closed either, indicating varying levels of alertness.
 
 3. **Actuators**:
    - **Rotating Motors**: Activated to provide physical stimulation to the driver when drowsiness is detected.
+  
+## Monitoring
+The system achieved an accuracy rate of 85%, 82% and 90% in VGG16, VGG19 & DenseNet respectively in detecting drowsiness, based on test data from controlled environments.
+![image](https://github.com/user-attachments/assets/b90e09e6-d8b6-406b-9e28-e0fc910e9feb)
+
+
+## References
+Driver drowsiness detection and smart alerting using deep learning and IoT Anh-Cang Phan a,∗, Thanh-Ngoan Trieu b,c, Thuong-Cang Phan c a Vinh Long University of Technology Education, Vinh Long, 85110, Viet Nam b Université de Bretagne Occidentale, Brest, 29200, France c Can Tho University, Can Tho, 94115, Viet Nam
+

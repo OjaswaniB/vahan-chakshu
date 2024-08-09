@@ -1,4 +1,5 @@
-# Real-Time IoT-Based Drowsiness Detection System
+# Real-Time IoT-Based Drowsiness Detection System - VAHAN CHAKSHU
+This Real-Time IoT-Based Drowsiness Detection System leverages the machine learning life cycle to ensure accurate and effective detection of drowsiness. The machine learning life cycle includes several key stages, each of which is crucial for developing a robust system. Below is an overview of how each stage is applied in our system:
 ![image](https://github.com/user-attachments/assets/03e974dc-752f-4af8-a6c7-02d48aee3654)
 
 ## Objective

@@ -7,25 +7,30 @@ This repository contains the code and documentation for a Real-Time IoT-Based Dr
 ## Classes
 - **Neutral**: The driver is in a normal, alert state. Eye blink rates and head nods are within
 typical ranges for a person who is fully awake and attentive.
+
 ![image](https://github.com/user-attachments/assets/0d73d231-c7a1-4bb8-a85b-82443452002f)
 
 - **Yawning**: This category indicates a higher likelihood of drowsiness. Yawning is often a
 visible sign of fatigue, and the dataset may include instances where the driver yawns or
 shows signs of being tired.
+
 ![image](https://github.com/user-attachments/assets/8cb47a47-afb8-44ee-8f8d-f3d51e3a509f)
 
 - **Eyes Closed**: This state is characterized by the driver having their eyes fully closed. It
 could signify extreme drowsiness or inattentiveness, and the data collection would record
 how long and frequently this occurs.
+
 ![image](https://github.com/user-attachments/assets/9a00299d-70c7-4003-ba80-87364714513a)
 
 - **Drowsy**: The driver exhibits signs of drowsiness beyond just yawning or closed eyes. This
 might include slow and frequent blinking, prolonged eye closure, or nodding off.
+
 ![image](https://github.com/user-attachments/assets/485056d6-2a87-414e-bb92-cdefd9b60e62)
 
 - **Half Open Eyes**: This state shows a transition between being awake and
 falling asleep. It represents a condition where the driver’s eyes are not fully open but are
 not fully closed either, indicating varying levels of alertness.
+
 ![image](https://github.com/user-attachments/assets/de1b35da-d694-450f-9220-ee01df84a662)
 
 

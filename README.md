@@ -73,7 +73,7 @@ Trained machine learning models using labeled datasets that included various lev
 ## Monitoring
 The system achieved an accuracy rate of 85%, 82% and 90% in VGG16, VGG19 & DenseNet respectively in detecting drowsiness, based on test data from controlled environments.
 
-![image](https://github.com/user-attachments/assets/b90e09e6-d8b6-406b-9e28-e0fc910e9feb)
+![image](https://github.com/user-attachments/assets/d7f2121d-541f-42e7-8451-1aea82439ff5)
 
 
 ## References
